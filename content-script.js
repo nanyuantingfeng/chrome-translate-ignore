@@ -17,6 +17,6 @@
 
   var __IGNORE_CLASSNAME = ['highlight']
 
-  __IGNORE_CLASSNAME.forEach(k => toarray(document.getElementsByClassName(k).forEach(notranslate)))
+  __IGNORE_CLASSNAME.forEach(k => toarray(document.getElementsByClassName(k)).forEach(notranslate))
 
 })();
